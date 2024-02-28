@@ -1,0 +1,19 @@
+@import "~@fontsource/inder";
+
+* {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+:root {
+  --font-family: Inder;
+  --primary-color: #282a42;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

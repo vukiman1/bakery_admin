@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  /* background-color: rgb(39, 38, 38); */
+  width: 100%;
+  height: 60px;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+p {
+  color: white;
+  margin: 0;
+  margin: 0 !important;
+  text-align: right;
+}
+
+/* .Dashboard {
+  margin-right: 30px;
+} */
+
+.user_text-name {
+  font-weight: bold;
+}
+
+.logo {
+  width: 25%;
+  max-width: 250px;
+  margin: 5px 0 5px 0;
+}
+
+.logo_img {
+  width: 60px;
+  height: auto;
+  margin: 10px 0 10px 0;
+}
+
+.user_avatar-img {
+  height: 45px;
+  width: 45px;
+}
+
+.Dashboard_title {
+  padding: 0 15px 0 15px;
+  margin-bottom: 0;
+}
+
+.nofication {
+  padding: 0 15px 0 15px;
+}
+
+.search {
+  width: 25%;
+  position: relative;
+}
+
+.search input {
+  width: 80%;
+  height: 35px;
+  border-radius: 7px;
+  text-indent: 10px;
+  font-size: 18px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search_icon {
+  position: relative;
+  left: -10%;
+  color: black;
+  cursor: pointer;
+  z-index: 221;
+}
+
+.user_text {
+  margin-right: 5px !important;
+}
+
+.user_avatar img {
+  border: 3px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.dropdow {
+  display: none;
+  background-color: aliceblue;
+  position: absolute;
+  width: 100px;
+  right: 10%;
+  border-radius: 10px;
+}
+h5 {
+  color: rgb(0, 0, 0) !important;
+  cursor: pointer !important;
+  font-size: 17px !important;
+  text-align: center;
+}
+
+.user {
+  position: relative;
+}
+
+.user:hover .dropdow {
+  display: block;
+}

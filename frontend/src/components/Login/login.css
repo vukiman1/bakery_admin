@@ -1,0 +1,48 @@
+.login-background {
+  background: linear-gradient(
+    180deg,
+    #831424 0%,
+    #811e1c 22.92%,
+    #831424 55.73%,
+    #6c110f 83.33%,
+    #741414 100%
+  );
+
+  background-size: cover;
+}
+
+/* body {
+  background: linear-gradient(
+    180deg,
+    #831424 0%,
+    #811e1c 22.92%,
+    #831424 55.73%,
+    #6c110f 83.33%,
+    #741414 100%
+  ) !important;
+} */
+
+.login-image {
+  background-image: url("../../banner_1.jpg");
+  background-size: cover;
+  background-position: 80% 820%;
+  border: none;
+  border-radius: 0.7rem 0 0 1rem;
+}
+
+.card {
+  border: none !important;
+  border: 0.4rem solid #c98648 !important;
+}
+
+.no-name {
+  background-image: url("../../factory_bg.png");
+}
+
+.invalid {
+  display: block !important;
+}
+
+span {
+  top: 77%;
+}

@@ -1,0 +1,41 @@
+.contenContainer {
+  /* background-color: rgb(224, 224, 224); */
+  width: 80% !important;
+  height: 88vh !important;
+  border-radius: 15px;
+}
+
+.product_img {
+  object-fit: cover !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.tableFixHead {
+  width: 500px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.tableFixHead tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-bottom-left-radius: 15px;
+  height: 82vh;
+}
+.tableFixHead thead tr {
+  display: block;
+}
+.tableFixHead th,
+.tableFixHead td {
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.tableFixHead tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.tableFixHead tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}

@@ -1,0 +1,94 @@
+{
+  "product": [
+    {
+      "id": 8,
+      "image": "https://ruousg.com/wp-content/uploads/2022/09/Hop-Qua-Tet-2023-mau-16.jpg",
+      "name": "Hộp quà tết sang trọng",
+      "price": 1200000,
+      "quantity": 50
+    },
+    {
+      "id": 9,
+      "image": "https://product.hstatic.net/1000339158/product/tet_doan_vien_0_logo_6__1__master.png",
+      "name": "Combo 50 bao lì xì",
+      "price": 80000,
+      "quantity": 80
+    },
+    {
+      "id": 6,
+      "image": "https://honglam.vn/pic/thumb/large/product_variation/Nh%C6%B0%20%C3%9D.jpg",
+      "username": "kiki22",
+      "password": "22222",
+      "name": "Hộp bánh quy bơ sữa",
+      "price": 100000,
+      "quantity": 8
+    },
+    {
+      "id": 5,
+      "image": "https://newbev.vn/wp-content/uploads/2022/11/1.png",
+      "name": "Gói quà tết đỏ kèm rượu",
+      "price": 555555,
+      "quantity": 4
+    },
+    {
+      "id": 66,
+      "image": "https://winegroup.vn/wp-content/uploads/2023/02/Gio-Qua-Tet-Bang-Da-Ruou-Chivas-18.jpg",
+      "name": "Giỏ Quà Tết Rượu Chivas 18",
+      "price": 1899000,
+      "quantity": 3
+    },
+    {
+      "id": 19,
+      "image": "https://inluha.vn/uploads/tiny_uploads/hopquatet6.jpg",
+      "name": "Hộp quà nhân sâm VIP",
+      "price": 2000000,
+      "quantity": 5
+    },
+    {
+      "id": 12,
+      "image": "https://fujifruit.com.vn/wp-content/uploads/2023/12/Gio-qua-khong-hoa-6-1.png",
+      "name": "Giỏ hoa quả tết 2024",
+      "price": 2500000,
+      "quantity": 0
+    },
+    {
+      "id": 1,
+      "image": "https://cdn.nhathuocsuckhoe.com/unsafe/0x0/left/top/smart/filters:quality(350)/https://nhathuocsuckhoe.com/upload/news/content/2021/12/gio-qua-tet-xuan-dai-phat-jpg-1640662692-28122021103812.jpg",
+      "name": "Giỏ bánh kẹo",
+      "price": 780000,
+      "quantity": 50
+    }
+  ],
+  "users": [
+    {
+      "id": 4,
+      "image": "https://honglam.vn/pic/thumb/large/product_variation/Nh%C6%B0%20%C3%9D.jpg",
+      "username": "vukiman2",
+      "password": "3"
+    },
+    {
+      "id": 6,
+      "image": "https://honglam.vn/pic/thumb/large/product_variation/Nh%C6%B0%20%C3%9D.jpg",
+      "username": "kiki23",
+      "password": "22222"
+    },
+    {
+      "id": 7,
+      "image": "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
+      "username": "vukiman1",
+      "password": "122002"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ytimg.com/vi/bf4yyStDWHE/maxresdefault.jpg",
+      "username": "abc",
+      "password": "1"
+    },
+    {
+      "id": 11,
+      "image": "https://variety.com/wp-content/uploads/2021/04/Avatar.jpg",
+      "username": "quyet",
+      "password": "1"
+    }
+  ]
+}
