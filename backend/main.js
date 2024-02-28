@@ -1,43 +1,30 @@
 //đặt các giá trị
 require("dotenv").config();
-
 const PORT = process.env.PORT || 4444;
 const connectionString = process.env.MDB_CONNECTION_STRING;
 
-//kết nối đến csdl
-const connectDB = require("./config/db.js");
-
 //import
 const express = require("express");
-const UserModel = require("./models/userModel.js");
+const cors = require("cors");
 const productRouters = require("./routers/productRouters.js");
+const userRouters = require("./routers/userRouters.js");
 
 const app = express();
-const cors = require("cors");
 
 app.use(express.json());
 app.use(cors());
 
 // kết nối csdl
+const connectDB = require("./config/db.js");
 connectDB.connectDB(connectionString);
 
+////ROUTER
 //products roter
 app.use("/bakery", productRouters);
+//users router
+app.use("/bakery", userRouters);
 
-//users
-app.get("/users", async (req, res) => {
-  UserModel.find({}).then((user) => {
-    res.status(200).json(user);
-  });
-});
-app.get("/users/:id", async (req, res) => {
-  const { id } = req.params;
-
-  UserModel.findOne({ id: id }).then((user) => {
-    res.status(200).json(user);
-  });
-});
-
+// chạy cors để bỏ thông báo lỗi khi get api
 app.use(cors());
 app.listen(80, function () {
   console.log("CORS-enabled web server listening on port 80");

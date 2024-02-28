@@ -17,8 +17,8 @@ function Login() {
   const [check, setCheck] = useState(false);
 
   useEffect(() => {
-    axios.get("http://localhost:9999/users").then((res) => {
-      setUsers(res.data);
+    axios.get("http://localhost:8888/bakery/users").then((res) => {
+      setUsers(res.data.Users);
     });
   }, []);
 

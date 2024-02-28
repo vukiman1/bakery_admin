@@ -19,8 +19,8 @@ function UserFormChange(item) {
   }, [item]);
 
   useEffect(() => {
-    axios.get("http://localhost:9999/users").then((res) => {
-      setUsers(res.data);
+    axios.get("http://localhost:8888/bakery/users").then((res) => {
+      setUsers(res.data.Users);
     });
   }, []);
 
@@ -72,14 +72,13 @@ function UserFormChange(item) {
   // đẩy lên server khi bấm submit
   function handleSubmit(e) {
     console.log(inputData);
-
     checkValid();
     console.log(checkValid());
     if (!checkValid()) {
       localStorage.setItem("inputData", JSON.stringify(inputData));
       console.log(inputData);
       axios
-        .put("http://localhost:9999/users/" + inputData.id, inputData)
+        .put("http://localhost:8888/bakery/users/" + inputData.id, inputData)
         .then((res) => {
           navigat(0);
         })

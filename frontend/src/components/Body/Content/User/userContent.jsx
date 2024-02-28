@@ -17,8 +17,8 @@ function Content() {
   //lấy dữ liệu từ server
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:9999/users");
-      const sortUsers = response.data.slice().sort((a, b) => a.id - b.id);
+      const response = await axios.get("http://localhost:8888/bakery/users");
+      const sortUsers = response.data.Users.slice().sort((a, b) => a.id - b.id);
       setUsers(sortUsers);
     } catch (error) {
       console.error("Error fetching users:", error);
@@ -34,7 +34,7 @@ function Content() {
   const handleDelete = (id) => {
     const conf = window.confirm("Bán muốn xoá?");
     if (conf) {
-      axios.delete("http://localhost:9999/users/" + id).then((res) => {
+      axios.delete("http://localhost:8888/bakery/users/" + id).then((res) => {
         const uploadUsers = users.filter((item) => item.id !== id);
         setUsers(uploadUsers);
       });

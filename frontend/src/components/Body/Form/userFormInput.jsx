@@ -21,8 +21,8 @@ function UserForm() {
   const navigat = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:9999/users").then((res) => {
-      setUsers(res.data);
+    axios.get("http://localhost:8888/bakery/users").then((res) => {
+      setUsers(res.data.Users);
     });
   }, []);
 
@@ -80,7 +80,7 @@ function UserForm() {
     if (!checkValid()) {
       setMessage("");
       axios
-        .post("http://localhost:9999/users", inputData)
+        .post("http://localhost:8888/bakery/users", inputData)
         .then((res) => {
           navigat(0);
         })
